@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    height: 70px;
+    justify-content: left;
+    align-content: start;
+    /* background: linear-gradient(180deg, #0099, #23aa , #00aa); */
+    background: url("../public/imagenes/head.png");
+    border: none;
+   
+}
+
+.container-logo{
+    display: flex;
+    height: 95%;
+    width: 400px;
+    
+
+}
+
+.container-logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.img-logo{
+    height: 90%;
+    width: 70px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.title{
+    color: #dedede;
+    font-size: 18px;
+    
+}
+
+.title1{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    margin-right: 10px;
+}

@@ -1,0 +1,8 @@
+.badgesEmpty-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 400px;
+    
+}
+

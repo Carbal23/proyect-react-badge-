@@ -1,0 +1,70 @@
+
+.headerDetails {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .headerDetails h1{
+ 
+} */
+.big-container{
+  width:100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerDetails img {
+  margin: auto;
+  margin-top: 10px;
+}
+
+.mainBadgeDetails{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.badgeDetails-container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  justify-content: center;
+  width: 1200px;
+
+  margin-top: 40px;
+}
+
+.actionBadge-container {
+  display: flex;
+  height: 380px;
+  align-items: center;
+
+}
+
+.actionBadge {
+  display: grid;
+  grid-template-rows: 30% 35% 35%;
+  height: 200px;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+  padding: 20px;
+  background: #f4f4f7;
+}
+
+.actionBadge h2{
+   color: #122334;
+  }
+
+.buttonEdit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonDelete-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,44 @@
+.container-page{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.header{
+    height: 150px;
+    display: flex;
+    width: 100%;
+    border: none;
+    background: linear-gradient(180deg, #dedede , #fff, #fefefe);
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header h1{
+    margin-left: 40px;
+    color: #353523;
+    margin-right: 40px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.header img{
+    height: 150px;
+    width: 300px;
+    margin: auto;
+}
+
+.container-badge{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 350px;
+}
+
+.linkBadgeList{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
